@@ -15,12 +15,13 @@ namespace Service
 
         public override Task<CustomerModel> GetCustomer(GetCutomerRequest request, ServerCallContext context)
         {
+            this._logger.LogDebug($"Get customer with ID \"{request.Id}\" ");
             return Task.FromResult(new CustomerModel()
             {
                 Id = request.Id,
                 Firstname = "Arnaud",
                 Name = "Bertieaux",
-                Age = 310
+                Age = 31
             });
         }
     }

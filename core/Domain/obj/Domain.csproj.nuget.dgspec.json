@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Domain/Domain.csproj": {}
+    "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Domain/Domain.csproj": {}
   },
   "projects": {
-    "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Domain/Domain.csproj": {
+    "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Domain/Domain.csproj",
+        "projectPath": "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Domain/Domain.csproj",
         "packagesPath": "/Users/arnaud/.nuget/packages/",
-        "outputPath": "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Domain/obj/",
+        "outputPath": "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arnaud/.nuget/NuGet/NuGet.Config"

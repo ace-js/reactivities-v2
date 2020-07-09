@@ -1,20 +1,19 @@
 import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
 import { ClientGrpc } from '@nestjs/microservices';
-import { CustomerGrpcService } from './contract/customer.grpc.service';
-import { CustomerGrpcResponse } from './contract/customer.grpc.response';
+import {  GetCustomerResponse, CustomerGrpcService } from './contract/customer.interfaces';
 
 @Injectable()
 export class CustomerService implements OnModuleInit {
-  private service: CustomerGrpcService;
+  private _service: CustomerGrpcService;
 
-  constructor(@Inject('CUSTOMER') private client: ClientGrpc) {
+  constructor(@Inject('CUSTOMER') private _client: ClientGrpc) {
   }
 
   onModuleInit(): void {
-    this.service = this.client.getService<CustomerGrpcService>('Customer');
+    this._service = this._client.getService<CustomerGrpcService>('Customer');
   }
 
-  getCustomer(id: number): Promise<CustomerGrpcResponse> {
-    return this.service.getCustomer({ id });
+  getCustomer(id: number): Promise<GetCustomerResponse> {
+    return this._service.getCustomer({ id });
   }
 }

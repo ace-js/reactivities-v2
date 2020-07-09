@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IaeO8eiPL1uAPZ80ZETLsTwew8/9NIvI6hLRQ2D+QK93mucpwQdpviwIOARChbVLpn6fn2KEeU7xCB2jVDre7w==",
+  "dgSpecHash": "BGwE0vpcRPYwKWxlfs4j2Rav8d1/gHL5nVSEMVwxssd3XKTe6dVbXxMPSyY4MmzV9GFM4UaIcxeH7HWcRl9E1w==",
   "success": true,
-  "projectFilePath": "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Domain/Domain.csproj",
+  "projectFilePath": "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

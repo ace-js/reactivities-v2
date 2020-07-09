@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Service/Service.csproj",
+    "projectUniqueName": "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Service/Service.csproj",
     "projectName": "Service",
-    "projectPath": "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Service/Service.csproj",
-    "outputPath": "/Users/arnaud/Sources/dotnet-repositories/reactivities-grpc/core/Service/obj/",
+    "projectPath": "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Service/Service.csproj",
+    "outputPath": "/Users/arnaud/Sources/fullstask-projects/reactivities-v2/core/Service/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
