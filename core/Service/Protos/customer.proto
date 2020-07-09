@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option  csharp_namespace = "Service";
+
+package customer;
+
+service  Customer {
+  rpc GetCustomer (GetCutomerRequest)  returns (CustomerModel);
+}
+
+message GetCutomerRequest {
+  int32 id = 1;
+}
+
+message CustomerModel {
+  int32 id = 1;
+  string firstname = 2;
+  string name = 3;
+  int32 age= 4;
+}
